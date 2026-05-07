@@ -1,7 +1,10 @@
 # 🚀 AI CV Builder
 
+## 📷 Showcase
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/muhammetgonul12/ai-cv-builder/main/public/screenshots/showcase.png" />
+  <img src="https://raw.githubusercontent.com/muhammetgonul12/ai-cv-builder/main/public/screenshots/showcase1.png" width="49%" />
+  <img src="https://raw.githubusercontent.com/muhammetgonul12/ai-cv-builder/main/public/screenshots/showcase2.png" width="49%" />
 </p>
 
 <p align="center">
