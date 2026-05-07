@@ -1,36 +1,161 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 AI CV Builder
 
-## Getting Started
+🇹🇷 Yapay zeka destekli modern CV ve portföy oluşturucu.  
+🇬🇧 AI-powered modern resume and portfolio builder.
 
-First, run the development server:
+Create professional resumes and portfolios in minutes using artificial intelligence.
+
+---
+
+<p align="center">
+  <img src="./public/screenshots/showcase.png" alt="AI CV Builder Showcase" />
+</p>
+
+<p align="center">
+AI-powered modern CV & portfolio builder with AI features, live preview, premium templates, and PDF export.
+</p>
+
+---
+
+## ✨ Features
+
+### 🤖 AI-Powered Features
+
+Boost your resume creation experience with built-in AI tools:
+
+- Generate professional biographies
+- Create LinkedIn summaries
+- Improve project descriptions
+- Get skill recommendations
+
+---
+
+### 🎨 3 Premium Templates
+
+#### Minimal
+Clean and corporate design focused on simplicity.
+
+#### Modern
+Premium startup-style modern interface.
+
+#### Cyberpunk
+Bold futuristic design with cyber aesthetics.
+
+---
+
+### ⚡ Live Preview
+
+Instantly preview your CV while editing.
+
+---
+
+### 📄 One-Click PDF Export
+
+Download your professional CV in PDF format with a single click.
+
+---
+
+### 🖼 Photo Upload Support
+
+Add profile photos directly to your resume.
+
+---
+
+## 🛠 Tech Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- AI Integration
+- PDF Export System
+
+---
+
+## 🎯 Use Cases
+
+Perfect for:
+
+- Software Developers
+- Students
+- Freelancers
+- Designers
+- Startup Founders
+- Job Seekers
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/yourusername/ai-cv-builder.git
+```
+
+### Navigate into the project
+
+```bash
+cd ai-cv-builder
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🔥 Core Features Overview
 
-To learn more about Next.js, take a look at the following resources:
+| Feature | Description |
+|---|---|
+| AI Biography Generator | Creates professional bios instantly |
+| LinkedIn Summary Generator | Generates optimized LinkedIn summaries |
+| Project Description Enhancer | Improves project explanations |
+| Skill Recommendation System | Suggests relevant skills |
+| Live CV Preview | Real-time resume visualization |
+| PDF Export | Download resume as PDF |
+| Premium Templates | 3 modern CV themes |
+| Photo Upload | Add profile image support |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📌 Future Improvements
 
-## Deploy on Vercel
+- More resume templates
+- Multi-language support
+- AI interview preparation
+- Online portfolio hosting
+- Authentication system
+- Cloud save support
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+
+Contributions, feature requests, and feedback are welcome.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a star on GitHub ⭐
