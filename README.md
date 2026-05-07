@@ -1,7 +1,7 @@
 # 🚀 AI CV Builder
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/muhammetgonul12/ai-cv-builder/main/screenshots/showcase.png" />
+  <img src="https://raw.githubusercontent.com/muhammetgonul12/ai-cv-builder/main/public/screenshots/showcase.png" />
 </p>
 
 <p align="center">
