@@ -8,6 +8,12 @@ export function ModernTemplate({ data }: { data: CvData }) {
         <div className="space-y-2">
           <h2 className="text-3xl font-semibold">{data.fullName}</h2>
           <p className="text-violet-300">{data.title}</p>
+          <div className="grid gap-1 text-xs text-zinc-400">
+            <p>Telefon Numarası: {data.phone}</p>
+            <p>Email: {data.email}</p>
+            <p>LinkedIn: {data.linkedin}</p>
+            <p>GitHub: {data.github}</p>
+          </div>
         </div>
         {data.photo ? (
           <img
@@ -17,11 +23,6 @@ export function ModernTemplate({ data }: { data: CvData }) {
           />
         ) : null}
       </header>
-      <section className="grid gap-1 text-xs text-zinc-400">
-        <p>LinkedIn: {data.linkedin}</p>
-        <p>Email: {data.email}</p>
-        <p>GitHub: {data.github}</p>
-      </section>
       <section className="space-y-2">
         <h3 className="text-sm uppercase tracking-wider text-zinc-400">Profil</h3>
         <p className="text-sm text-zinc-200">{data.about}</p>

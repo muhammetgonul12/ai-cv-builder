@@ -11,6 +11,7 @@ export const cvSchema = z.object({
   projects: z.string().min(2, "Projeler alanı boş bırakılamaz."),
   experience: z.string().min(2, "Deneyim alanı boş bırakılamaz."),
   education: z.string().min(2, "Eğitim alanı boş bırakılamaz."),
+  phone: z.string().min(10, "Geçerli bir telefon numarası giriniz."),
   linkedin: z.string().url("Geçerli bir LinkedIn URL'si giriniz."),
   github: z.string().url("Geçerli bir GitHub URL'si giriniz."),
   email: z.string().email("Geçerli bir e-posta adresi giriniz."),
@@ -33,6 +34,7 @@ export const defaultCvValues: CvFormValues = {
   experience:
     "Freelance Full Stack Developer (2024 - Günümüz)\nBackend Intern (2023 - 2024)",
   education: "XYZ Üniversitesi - Yazılım Mühendisliği (2022 - 2026)",
+  phone: "+90 5xx xxx xx xx",
   linkedin: "https://linkedin.com/in/ornek-profil",
   github: "https://github.com/ornek",
   email: "ornek@mail.com",

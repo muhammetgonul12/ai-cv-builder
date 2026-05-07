@@ -35,8 +35,9 @@ export function CvForm({ form }: Props) {
   const fields: Array<keyof CvFormValues> = [
     "fullName",
     "title",
-    "linkedin",
+    "phone",
     "email",
+    "linkedin",
     "github",
   ];
 
@@ -68,7 +69,11 @@ export function CvForm({ form }: Props) {
       {fields.map((name) => (
         <div key={name} className="space-y-2">
           <label className="text-sm text-zinc-300">{labelMap[name]}</label>
-          <Input {...register(name)} className="border-white/10 bg-white/5 text-zinc-100" />
+          <Input
+            {...register(name)}
+            placeholder={name === "phone" ? "+90 5xx xxx xx xx" : undefined}
+            className="border-white/10 bg-white/5 text-zinc-100"
+          />
           {errors[name] ? (
             <p className="text-xs text-red-400">{errors[name]?.message}</p>
           ) : null}
@@ -113,6 +118,7 @@ const labelMap: Record<keyof CvFormValues, string> = {
   projects: "Projeler",
   experience: "Deneyim",
   education: "Eğitim",
+  phone: "Telefon Numarası",
   linkedin: "LinkedIn",
   github: "GitHub",
   email: "Email",

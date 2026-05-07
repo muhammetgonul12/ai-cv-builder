@@ -7,6 +7,12 @@ export function MinimalTemplate({ data }: { data: CvData }) {
         <div>
           <h2 className="text-3xl font-bold">{data.fullName}</h2>
           <p className="text-lg text-zinc-600">{data.title}</p>
+          <div className="mt-2 grid gap-1 text-xs text-zinc-600">
+            <p>Telefon Numarası: {data.phone}</p>
+            <p>Email: {data.email}</p>
+            <p>LinkedIn: {data.linkedin}</p>
+            <p>GitHub: {data.github}</p>
+          </div>
         </div>
         {data.photo ? (
           <img
@@ -16,11 +22,6 @@ export function MinimalTemplate({ data }: { data: CvData }) {
           />
         ) : null}
       </header>
-      <section className="grid gap-1 text-xs text-zinc-600">
-        <p>LinkedIn: {data.linkedin}</p>
-        <p>Email: {data.email}</p>
-        <p>GitHub: {data.github}</p>
-      </section>
       <section>
         <h3 className="font-semibold">Hakkımda</h3>
         <p className="text-sm text-zinc-700">{data.about}</p>

@@ -9,6 +9,12 @@ export function CyberpunkTemplate({ data }: { data: CvData }) {
             {data.fullName}
           </h2>
           <p className="text-cyan-300">{data.title}</p>
+          <div className="mt-2 grid gap-1 text-xs text-fuchsia-200">
+            <p>Telefon Numarası: {data.phone}</p>
+            <p>Email: {data.email}</p>
+            <p>LinkedIn: {data.linkedin}</p>
+            <p>GitHub: {data.github}</p>
+          </div>
         </div>
         {data.photo ? (
           <img
@@ -18,11 +24,6 @@ export function CyberpunkTemplate({ data }: { data: CvData }) {
           />
         ) : null}
       </header>
-      <section className="grid gap-1 text-xs text-fuchsia-200">
-        <p>LinkedIn: {data.linkedin}</p>
-        <p>Email: {data.email}</p>
-        <p>GitHub: {data.github}</p>
-      </section>
       <section>
         <h3 className="mb-2 text-sm uppercase tracking-[0.2em] text-cyan-300">
           Hakkımda

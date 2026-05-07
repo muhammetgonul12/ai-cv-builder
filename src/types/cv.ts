@@ -11,6 +11,7 @@ export interface CvData {
   projects: string;
   experience: string;
   education: string;
+  phone: string;
   linkedin: string;
   github: string;
   email: string;
